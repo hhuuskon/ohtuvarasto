@@ -16,8 +16,8 @@ class Varasto:
             # täyteen ja ylimäärä hukkaan!
             self.saldo = tilavuus
 
-    # huom: ominaisuus voidaan myös laskea. Ei tarvita erillistä kenttää viela_tilaa tms.
-    # Varmistetaan yllä olevalla, että Pylint huomaa githubissa jos nämä päällekkäiset kentät ovat tuhottaman liian pitkiän.
+    # huom: ominaisuus voidaan myös laskea.
+    #  Ei tarvita erillistä kenttää viela_tilaa tms.
     def paljonko_mahtuu(self):
         return self.tilavuus - self.saldo
 
